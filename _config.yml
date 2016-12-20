@@ -13,22 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Luke's Portfolio
+email: reynoldsluke08@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A compact overview of my time at GA, over the last 3 months of learning, I've
+  put together an insight into The Projects i've built and designed, as an individual
+  and as a group, Hope you enjoy and contact me if you like what i've made.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: Essexrambler
+github_username:  Essexrambler
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-athena
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
