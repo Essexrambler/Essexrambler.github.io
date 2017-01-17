@@ -1,0 +1,348 @@
+body {
+  margin:0;
+  padding:0;
+
+}
+
+div {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;
+margin: 15px;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {
+width: 100%;
+text-align: center;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
+  text-shadow: 1px 1px black;
+
+}
+
+nav {
+  height:50px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid #EE6363;
+
+}
+
+.about {
+  color: #6DECAF;
+  padding-top: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+  background-color:
+
+}
+
+.portrait {
+  max-width: 300px;
+  position: static;
+  max-height: 400px;
+  /*float: right;*/
+  opacity: 0.6;
+  /*padding-right: 80px;*/
+  padding-top: 6px;
+  border-radius: 50%;
+  /*margin-left: 100px;*/
+  /*padding-right: 100px;*/
+  border-color: #6DECAF;
+  /*border-radius: 400px;*/
+  /*text-align: center;*/
+
+   /*-webkit-border-radius: 300px;
+   -moz-border-radius: 300px;*/
+
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+
+
+}
+
+
+li {
+  padding-right: 50px;
+  display: inline;
+  line-height: 65px;
+  font-size: 25px;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
+}
+
+.nameLogo {
+  font-size: 10px;
+  float: left;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+a {
+  color:#6DECAF;
+}
+
+a.contact {
+    text-decoration: underline;
+    color: blue;
+}
+
+.ig-b- .ig-b-48 {
+  padding-top: 20px;
+}
+
+/*a:hover {
+    color: #EE6363;
+    font-size: 30px;
+}*/
+
+h1 {
+  font-size: 30px;
+  /*width: 30%;*/
+  color:#6DECAF;
+  /*display: inline;*/
+  /*text-align: center;*/
+  /*padding-right: 350px;*/
+  padding-top: 20px;
+  float: left;
+}
+
+.sunsetImageItaly {
+  position: relative;
+  min-height: 100%;
+  background-image: url('../images/sunset.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -150px;
+  /*opacity: 0.80;*/
+  /*overflow-y: visible;*/
+}
+
+.heroLeft {
+  width: 50%;
+  /*float: right;*/
+  text-align: center;
+
+}
+
+
+
+.freemanImageStudio2 {
+  position: relative;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.80;
+}
+
+.lukeProjects {
+  position: relative;
+  /*min-height: 500px;*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.projectImage1 {
+  background-image: url('../images/londonlandmarks.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 375px;
+}
+
+.projectImage1:hover {
+  opacity: 0.7;
+  transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+}
+
+.projectImage1 p {
+  display:none;
+}
+
+.projectImage1:hover p {
+  display:block;
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px blue;
+  bottom: -200px;
+  left: 16%;
+  font-size: 40px;
+}
+
+.projectImage2 {
+  background-image: url('../images/fireworks.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 375px;
+}
+
+.projectImage2:hover {
+  opacity: 0.6;
+  transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.04s ease-in-out;
+  -webkit-transition: opacity 0.04s ease-in-out;
+}
+
+.projectImage2 p {
+  display:none;
+}
+
+.projectImage2:hover p {
+  display:block;
+  position: absolute;
+  color:white;
+  text-shadow: 2px 2px black;
+  bottom: -200px;
+  right: 21%;
+  font-size: 40px;
+}
+
+.projectImage3 {
+  background-image: url('../images/bored.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 340px;
+}
+
+.projectImage3:hover {
+  opacity: 0.6;
+  transition: opacity 0.04s ease-in-out;
+  -moz-transition: opacity 0.04s ease-in-out;
+  -webkit-transition: opacity 0.04s ease-in-out;
+}
+
+.projectImage3 p {
+  display:none;
+}
+
+.projectImage3:hover p {
+  display:block;
+  position: absolute;
+  color: #57bd8c;
+  text-shadow: 2px 2px black;
+  bottom: -860px;
+  left: 18%;
+  font-size: 40px;
+}
+
+
+.projectImage4 {
+  background-image: url('../images/sp-agency.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 340px;
+}
+
+.projectImage4:hover {
+  opacity: 0.6;
+  transition: opacity 0.04s ease-in-out;
+  -moz-transition: opacity 0.04s ease-in-out;
+  -webkit-transition: opacity 0.04s ease-in-out;
+}
+
+.projectImage4 p {
+  display:none;
+}
+
+.projectImage4:hover p {
+  display:block;
+  position: absolute;
+  color: #E37222;
+  text-shadow: 2px 2px black;
+  bottom: -860px;
+  right: 10%;
+  font-size: 40px;
+  z-index: 10;
+}
+
+
+.lukeBio, .lukeBio2, .lukeBio3  {
+  height: auto;
+  /*background-color: #525C65;*/
+  color: #6DECAF;
+  text-align: center;
+  padding: 15px 80px;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+
+}
+
+.lukeBio4 {
+  height: auto;
+  background-color: #6DECAF;
+  color: #6DECAF;
+  text-align: center;
+  padding: 15px 80px;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
+  border-top: 2px solid #462ADE;
+  border-bottom: 2px solid #462ADE;
+  font-size: 20px;
+}
+
+.containerOne {
+  position: absolute;
+  background-color: #6DECAF;
+  color: #6DECAF;
+  padding: 18px;
+  left:500px;
+  top: 30%;
+  width: 200px;
+  height: 100px;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
+  font-size: 20px;
+}
+
+.logo {
+position: absolute;
+top: 1%;
+height: 60px;
+}
+
+.footer {
+  background-color: black;
+  height: 400px;
+  color: white;
+}
+
+
+img:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
