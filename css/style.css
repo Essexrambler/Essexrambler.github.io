@@ -198,12 +198,13 @@ h1 {
 
 .projectImage1:hover p {
   display:block;
-  position: absolute;
+  position: absolute
   color: white;
   text-shadow: 2px 2px blue;
   bottom: -200px;
-  left: 16%;
+  padding-left: 50px;
   font-size: 40px;
+  padding-top: 50px;
 }
 
 .projectImage2 {
@@ -232,6 +233,7 @@ h1 {
   bottom: -200px;
   right: 21%;
   font-size: 40px;
+  right: 10%;
 }
 
 .projectImage3 {
@@ -348,4 +350,8 @@ img:hover {
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+}
+
+.footer1 {
+  height: 40px;
 }
